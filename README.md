@@ -14,4 +14,5 @@ How to Run Locally:
 3. Open your browser and go to http://localhost:5173 to view the website.
 
 Deployment:
-This project is configured to be deployed using Vercel.
+This project is deployed using GitHub Pages. 
+To publish updates to the live site, run: npm run deploy
