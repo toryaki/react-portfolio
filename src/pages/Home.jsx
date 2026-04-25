@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import heroImg from '../assets/hero.png';
 
 function Home() {
   return (
@@ -16,7 +17,7 @@ function Home() {
       
       <div className="w-full md:w-1/2 flex justify-end">
         <img 
-          src="/src/assets/hero.png" 
+          src={heroImg} 
           alt="Tory Deutsch Hero" 
           className="w-48 md:w-64 h-auto object-contain rounded-2xl"
         />

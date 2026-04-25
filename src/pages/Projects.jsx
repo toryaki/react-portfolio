@@ -1,5 +1,8 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import project1Img from '../assets/project1.png';
+import project2Img from '../assets/project2.png';
+import project3Img from '../assets/project3.png';
 
 function Projects() {
   const projects = [
@@ -7,21 +10,21 @@ function Projects() {
       id: 1,
       title: 'Ecommerce Mobile Prototype',
       description: 'Interviewed 16 parents to uncover pain points in managing children’s clothing. Conducted a competitive audit, mapped user flows, and ran low-fidelity usability tests. Designed a fashion e-commerce app with a tailored onboarding experience for parents that personalizes shopping as children grow. Illustrated a playful brand identity for the final product.',
-      image: '/src/assets/project1.png',
+      image: project1Img,
       link: 'https://torydeutsch.com/chickpea'
     },
     {
       id: 2,
       title: 'Microsoft Internship',
       description: 'Redesigned Microsoft’s internal Incident Routing Tool, used daily by 2K+ support engineers to resolve customer issues. Built directly in Power Apps for faster delivery and introduced a search-first experience informed by telemetry data, reducing misroutes and validated through usability testing with 80% user preference over the previous workflow.',
-      image: '/src/assets/project2.png',
+      image: project2Img,
       link: 'https://torydeutsch.com/icm-redesign'
     },
     {
       id: 3,
       title: 'Making digital accesibility approachable for UCF faculty',
       description: 'While working with the my university\'s Center for Distributed Learning (CDL), I served as the sole UX designer on UDOIT (Universal Design Online Content Inspection Tool)—an open-source application that helps faculty identify and remediate accessibility issues directly within Canvas LMS.',
-      image: '/src/assets/project3.png'
+      image: project3Img
     }
   ];
 
